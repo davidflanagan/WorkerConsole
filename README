@@ -1,0 +1,9 @@
+Include the WorkerConsole.js script at the top of your HTML files and
+your Web Worker threads should be able to use console.log() to generate
+debugging output. This is just at the proof-of-concept stage, however,
+and has not been carefully tested.  See the comment at the top of
+WorkerConsole.js.  Only works in browsers that support MessageChannel
+(this excludes Firefox 4).
+
+See testpage.html and tests/testworker.js for the simplest possible use of 
+WorkerConsole.js
